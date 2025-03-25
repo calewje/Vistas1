@@ -14,12 +14,24 @@ Route::get('/inicio',function(){
 });
 
 
-Route::get('/sesion',function(){
-    return view('sesion');
+Route::get('/papular',function(){
+    return view('papular');
 });
 
-Route::get('/registro',function(){
-    return view('registro');
+Route::get('/genero',function(){
+    return view('genero');
+});
+Route::get('/isekai',function(){
+    return view('isekai');
+});
+Route::get('/papular',function(){
+    return view('papular');
+});
+Route::get('/shonen',function(){
+    return view('shonen');
+});
+Route::get('/envivo',function(){
+    return view('envivo');
 });
 
 
